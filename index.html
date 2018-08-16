@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title> Everest Kitchen - Authentic Nepali Cuisine</title>
+        <meta name="description" content="Authentic Nepali restaurant- also serves Indian, Bhutanese and Tibetan 
+        cuisine. Experience the original taste inherited from the dwellers of the mighty Himalayas.">
+        <meta name="keywords" content="Nepalese restaurant, Nepali restaurant, Nepalese cuisine, Nepalese food, 
+        ethnic food, Asian food, Himalayan, Tibetan, restaurant in Pittsburgh, Bhutanese food">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        
+        <meta charset="UTF-8">
+
+
+        <!-- Bootstrap, minJS and ajax CDNs -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!-- jQuery library -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Merriweather:700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+               
+        <!-- Link to stylesheets -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- for image slider -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
+        <style>
+        .slick-dots li button:before
+    {
+        font-size: 20px;
+        line-height: 20px;
+        color: red;
+        top: -40px;  
+        
+    }
+    </style>
+       
+    </head>
+
+    <body>
+        <nav role="navigation" class="navbar navbar-default navbar-fixed-top" id="navigation-bar">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button" onclick=alert();>
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span></button> 
+                </div>
+                
+                <!-- Collect  nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><button class="btn navBtns highlight" id="homeBtn">Home</a></li>
+                        <li><button class="btn navBtns" id="serviceBtn">Menu</a></li>
+                        <li><button class="btn navBtns" id="aboutUsBtn">Services</a></li>
+                        <li><button class="btn navBtns" id="contactBtn">Contact Us</a></li>
+                        <li><button class="btn navBtns" id="contactBtn">Reviews</a></li>
+                    </ul>
+                </div><!--navbar-collapse -->
+            </div><!--container-fluid -->
+        </nav>
+        <div class="slider-images">
+            <div><img src="assets/images/food1.jpeg" class=" img-rounded img-responsive" max-width: 100%></div>
+            <div><img src="assets/images/food2.jpeg" class="img-responsive" ></div>
+            <div><img src="assets/images/food3.jpeg" class="img-responsive" ></div>
+            <div><img src="assets/images/food4.jpeg" class="img-responsive" ></div>
+        </div>
+
+        <div class="col-lg-12 homepage-panel-specialAnnouncement">           
+             <div class="panel panel-body special-announcement">
+                <p>Special Announcement Goes here - One line is best</p>
+            </div> 
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 homepage-panels">
+            <div class="panel panel-body about-us">
+                <p>About the restarent</p>
+                <p>
+                Located in the heart of shopping center along Saw Mill Run Blvd right across Pizza Hut in Pittsburgh, Everest Kitchen is a family-owned and operated restaurant. We are proud to serve a variety of authentic cuisines featuring from the Himalayan Regions of Nepal, Bhutan, and Tibet at affordable prices in a friendly atmosphere.
+                At Everest Kitchen, each dish is prepared using the freshest ingredients with utmost care and perfection to suit your taste buds. We believe in the quality and taste of dishes, as they are handcrafted every day by our culinary experts. 
+                We strive to provide our customers with the unique offer of great taste, hospitality, and excellent customer service.
+                We welcome you to walk through our door and experienc a delicious dining here at Everest Kitchen.       
+            </p>
+            </div>
+        </div>
+       
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 homepage-panels homepage-panel-hours">
+            <div class="panel panel-body hours"></div>
+            <p>Hours</p>
+                <p>Sunday : 11 AM-10 PM</p>
+                <p>Monday	: CLOSED (Dine and dash day)</p>
+                <p>Tuesday : 11 AM-10 PM</p>
+                <p>Wednesday : 11 AM-10 PM</p>
+                <p>Thursday : 11 AM-10 PM</p>
+                <p>Friday	: 11 AM-10 PM</p>
+                <p>Saturday : 11 AM-10 PM</p>
+            </div>
+        </div>
+            
+
+        <!-- All pages will be injected to the following divs -->
+        <!-- <div class="pages" id="homePageDiv"></div>
+        <div class="pages" id="menuPageDiv"></div>
+        <div class="pages" id="servicesPageDiv"></div>
+        <div class="pages" id="contUsPageDiv"></div>
+        <div class="pages" id="reviewPageDiv"></div> -->
+
+        <!-- Link to js files and jquery cdn -->
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <script type="text/javascript" src="assets/javascript/info.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+        <!-- For slick Slider -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+             $('.slider-images').slick({
+                     arrows:false,
+                       infinite: false,
+                     autoplay:true,
+                     autoplaySpeed:4000,
+                     dots: true,
+                     mobileFirst: true
+                      
+                 });		
+				
+            });
+            
+            function alert(){
+            alert("Hello");
+            }
+  </script>
+        
+    </body>
+</html>

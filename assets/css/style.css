@@ -1,0 +1,75 @@
+/* Navigation .icon-bar */
+#navigation-bar{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+
+}
+
+.navbar-default{
+    background-color: teal !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+
+
+}
+.navbar-brand{
+    font-size: 20px !important;
+    color: black !important;
+    font-weight: bold !important;
+    font-family: 'Comfortaa', cursive;
+    margin-top: -15px;
+
+}
+
+#brand-image{
+    margin-top: -10px;
+}
+
+.navBtns{
+    margin-right: 7px;
+    margin-top: 5px;
+    min-width: 80px;
+    background-color: teal ;
+    color: white ;
+    font-family: 'Comfortaa', cursive;
+}
+
+.highlight{
+    background-color: lawngreen;
+    color: black
+}
+
+.icon-bar{
+    background-color: white !important;
+}
+
+/* Home page image slider styling */
+.slider-images{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.homepage-panel-specialAnnouncement{
+	margin-top:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+}
+.homepage-panels{
+	border : 1px solid gray;
+	margin-left: 30px !important;
+	border-radius: 2%;
+}
+
+.homepage-panel-hours{
+	margin-left: 30px;
+}
+/* Main divs in index page where all pages are injected*/
+.pages{
+    margin-top: 90px;
+}
+
+body{
+	margin-top: 83px !important;
+}
