@@ -30,17 +30,7 @@
         <!-- for image slider -->
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-        
-        <style>
-        .slick-dots li button:before
-    {
-        font-size: 20px;
-        line-height: 20px;
-        color: red;
-        top: -40px;  
-        
-    }
-    </style>
+
        
     </head>
 
@@ -49,14 +39,16 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button" onclick=alert();>
+                    <img src="assets/images/1.png" height="30%" width="30%" id="logo">
+                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button" id="nav-toggle-btn">
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
-                        <span class="icon-bar"></span></button> 
+                        <span class="icon-bar"></span>
+                    </button> 
                 </div>
                 
                 <!-- Collect  nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="navElements">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><button class="btn navBtns highlight" id="homeBtn">Home</a></li>
                         <li><button class="btn navBtns" id="serviceBtn">Menu</a></li>
@@ -66,53 +58,125 @@
                     </ul>
                 </div><!--navbar-collapse -->
             </div><!--container-fluid -->
-        </nav>
+    </nav>
+        
         <div class="slider-images">
-            <div><img src="assets/images/food1.jpeg" class=" img-rounded img-responsive" max-width: 100%></div>
-            <div><img src="assets/images/food2.jpeg" class="img-responsive" ></div>
-            <div><img src="assets/images/food3.jpeg" class="img-responsive" ></div>
-            <div><img src="assets/images/food4.jpeg" class="img-responsive" ></div>
+            <div><img src="assets/images/everest.jpg" class=" img-rounded img-responsive" style="width:1260px;height:390px;"><h1 id="home-image-text"> Everest Kitchen</h1></div>
+            <div><img src="assets/images/food1.jpeg" class=" img-rounded img-responsive" style="width:1260px;height:390px;"></div>
+            <div><img src="assets/images/food2.jpeg" class="img-rounded img-responsive"  style="width:1260px;height:390px;"></div>
+            <div><img src="assets/images/food3.jpeg" class="img-rounded img-responsive"  style="width:1260px;height:390px;"></div>
+            <div><img src="assets/images/food4.jpeg" class="img-rounded img-responsive"  style="width:1260px;height:390px;"></div>
         </div>
 
-        <div class="col-lg-12 homepage-panel-specialAnnouncement">           
-             <div class="panel panel-body special-announcement">
+        <div class="col-lg-12 panel-body homepage-panel-specialAnnouncement">  
                 <p>Special Announcement Goes here - One line is best</p>
-            </div> 
         </div>
 
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 homepage-panels">
-            <div class="panel panel-body about-us">
-                <p>About the restarent</p>
+        
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 panel-body homepage-panel-about">
+            <div class="abtAndHours">
                 <p>
                 Located in the heart of shopping center along Saw Mill Run Blvd right across Pizza Hut in Pittsburgh, Everest Kitchen is a family-owned and operated restaurant. We are proud to serve a variety of authentic cuisines featuring from the Himalayan Regions of Nepal, Bhutan, and Tibet at affordable prices in a friendly atmosphere.
                 At Everest Kitchen, each dish is prepared using the freshest ingredients with utmost care and perfection to suit your taste buds. We believe in the quality and taste of dishes, as they are handcrafted every day by our culinary experts. 
                 We strive to provide our customers with the unique offer of great taste, hospitality, and excellent customer service.
                 We welcome you to walk through our door and experienc a delicious dining here at Everest Kitchen.       
             </p>
-            </div>
+        </div>
+
         </div>
        
 
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 homepage-panels homepage-panel-hours">
-            <div class="panel panel-body hours"></div>
-            <p>Hours</p>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panel-body homepage-panels homepage-panel-hours">
+                <div class="abtAndHours">
+
+                <p>Open now</p>
+                <p>Hours</p>
                 <p>Sunday : 11 AM-10 PM</p>
-                <p>Monday	: CLOSED (Dine and dash day)</p>
+                <p>Monday	: CLOSED</p>
                 <p>Tuesday : 11 AM-10 PM</p>
                 <p>Wednesday : 11 AM-10 PM</p>
                 <p>Thursday : 11 AM-10 PM</p>
                 <p>Friday	: 11 AM-10 PM</p>
                 <p>Saturday : 11 AM-10 PM</p>
+                </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-lg-12 panel-body homepage-welcome-msg">  
+                <p>We are glad that you are here ....</p>
+        </div>
+
+        
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 panel-body">
+            <div class="service-shortcut">
+                <img src="assets/images/services1.png" style="width:200px;height:200px;" class="service-imgs">
+                <div hidden>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                <div class="service-shortcut-description">
+                    <p>Dine-in, Takeout, Catering & Delivery.</p>
+                    <button class="btn btn-success">Explore</button>
+                </div>
             </div>
         </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 panel-body homepage-panel-about">
+            <div class="service-shortcut">
+                <img src="assets/images/menu1.png" style="width:200px;height:200px;" class="service-imgs">
+                <div hidden>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                <div class="service-shortcut-description">
+                    <p>Menu for all - 100+ entries</p>
+                    <button class="btn btn-success">Explore</button>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panel-body homepage-panels homepage-panel-hours">
+            <div class="service-shortcut">
+                <img src="assets/images/telephone1.png" style="width:200px;height:200px;" class="service-imgs">
+                <div hidden>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" >CC 3.0 BY</a></div>
+                <div class="service-shortcut-description">
+                    <p>For reservation, questions & comments</p>
+                    <button class="btn btn-success">Contact</button>
+                </div>
+            </div> 
+        </div>
+
+
+
+
+
+
+
+        
+
+
+        <footer class="col-lg-12 footerPanel blockquote-footer">
+            <div class="row">
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-android"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+            </div>
+            <div class="footer-info card-footer">
+                <p> Dynamic IO Technologies llc. </p><span class="copyYear">
+                <p>Copyright &nbsp; &copy; &nbsp;<span id="currentYear"></span></p></span>
+                <p> <span class="glyphicon glyphicon-envelope"></span> &nbsp; contact@dynamicio.com </p>
+                <p> <span class="glyphicon glyphicon-phone-alt"></span>&nbsp; (470) 331-8692</p>
+            </div>
+        </footer>
+
             
 
-        <!-- All pages will be injected to the following divs -->
-        <!-- <div class="pages" id="homePageDiv"></div>
-        <div class="pages" id="menuPageDiv"></div>
-        <div class="pages" id="servicesPageDiv"></div>
-        <div class="pages" id="contUsPageDiv"></div>
-        <div class="pages" id="reviewPageDiv"></div> -->
 
         <!-- Link to js files and jquery cdn -->
         <script type="text/javascript" src="assets/javascript/app.js"></script>
@@ -131,16 +195,17 @@
                      autoplay:true,
                      autoplaySpeed:4000,
                      dots: true,
-                     mobileFirst: true
+                     mobileFirst: true,
+                     cssEase: 'ease-out'
                       
                  });		
 				
             });
             
-            function alert(){
-            alert("Hello");
-            }
+            $("#nav-toggle-btn").on('click', function(){
+                $(".container").css({"margin-top": "310px"});
+            });
   </script>
-        
+        </div>
     </body>
 </html>

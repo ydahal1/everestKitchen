@@ -178,12 +178,20 @@
 }
 .slick-dots li button:before
 {
+
+    line-height: 20px;
+    color: white;
+
+
+
     font-family: 'slick';
-    font-size: 6px;
+    /* customized by yadhap */
+    font-size: 20px; 
     line-height: 20px;
 
     position: absolute;
-    top: 0;
+     /* customized by yadhap */
+    top: -40px; 
     left: 0;
 
     width: 20px;
@@ -192,14 +200,15 @@
     content: '•';
     text-align: center;
 
-    opacity: .25;
-    color: black;
+    /* opacity: .25; */
+    /* color: black; */
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before
 {
-    opacity: .75;
-    color: black;
+    /* opacity: .75; */
+    /* color: black; */
+    color: red;
 }

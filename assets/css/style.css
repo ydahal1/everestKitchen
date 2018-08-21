@@ -1,75 +1,205 @@
-/* Navigation .icon-bar */
-#navigation-bar{
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-
-}
-
-.navbar-default{
-    background-color: teal !important;
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
-
-
-}
-.navbar-brand{
-    font-size: 20px !important;
-    color: black !important;
-    font-weight: bold !important;
+body{
+    margin-top: 150px !important;
     font-family: 'Comfortaa', cursive;
-    margin-top: -15px;
+    width: 100%;
+    /* background-color: rgba(0, 128, 125, 0.1); */
+
 
 }
+/************************************************************************************************************/
+/* Navigation .icon-bar */
 
-#brand-image{
-    margin-top: -10px;
+#logo{
+    /* padding: -30px !important; */
+    margin-left: 15px;
+
 }
+#navigation-bar{
+    /* padding-right: 10px; */
+    padding-left: 10px;
+    background-color: whitesmoke !important;
+    padding-top: 2px !important;
+    /* padding-bottom: 2px !important; */
+}
+#navElements{
+    margin-top: 60px;
+    margin-right: 25px;
 
+
+}
 .navBtns{
-    margin-right: 7px;
-    margin-top: 5px;
+    margin-right: 2px;
     min-width: 80px;
-    background-color: teal ;
-    color: white ;
+    background-color: whitesmoke ;
+    color: black ;
+    font-size: 18px;
     font-family: 'Comfortaa', cursive;
 }
 
 .highlight{
-    background-color: lawngreen;
-    color: black
+    color: red
+}
+#nav-toggle-btn{
+    margin-top:55px;
+    border: 3px solid red;
+    line-height: 18px;
+    padding: -110px !important;
+}
+.icon-bar{
+    background-color: red !important;
+}
+/************************************************************************************************************/
+
+.page-heading{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+
 }
 
-.icon-bar{
-    background-color: white !important;
-}
+/************************************************************************************************************/
+
 
 /* Home page image slider styling */
 .slider-images{
-	margin-left: 5px;
-	margin-right: 5px;
-}
-.homepage-panel-specialAnnouncement{
-	margin-top:10px;
-	margin-right: 10px;
+    /* margin-top: 70px; */
 	margin-left: 10px;
-	text-align: center;
+	margin-right: 10px;
 }
-.homepage-panels{
-	border : 1px solid gray;
-	margin-left: 30px !important;
-	border-radius: 2%;
+
+#home-image-text{
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+    margin-top: -365px;
+    margin-left: 820px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+/************************************************************************************************************/
+
+.homepage-panel-specialAnnouncement{
+	margin-top: -25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight : bold;
+    /* overflow: auto; */
+    /* background-color: rgba(0, 128, 125, 0.4); */
+    /* color: red; */
+
+}
+/************************************************************************************************************/
+.abtAndHours{
+    border: 1px solid white;
+    padding: 30px;
+    background-color: rgba(0, 128, 125, 0.1);
+    border-radius: 10px;
+}
+
+
+.homepage-panel-about{
+    margin-top: 5px;
+    text-align: center;
+    /* padding-top: 30px; */
+    line-height: 25px;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+}
+
 
 .homepage-panel-hours{
-	margin-left: 30px;
-}
-/* Main divs in index page where all pages are injected*/
-.pages{
-    margin-top: 90px;
+    margin-top: 5px;
+    line-height: 25px;
+    text-align: center;
+
+    /* padding:30px; */
+    /* padding-bottom:80px; */
+    /* background-color: red; */
+    /* margin-left: 30px; */
+    /* border: 1px solid black; */
+
+
 }
 
-body{
-	margin-top: 83px !important;
+/************************************************************************************************************/
+
+.homepage-welcome-msg{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight : bold;
 }
+
+.service-shortcut{
+    padding-top:20px;
+    margin-left: 20px;
+    min-height: 250px;
+    background-color: rgba(0, 128, 125, 0.1);   
+    text-align: center;
+    border-radius: 5%;
+}
+
+.service-imgs{
+    border-radius: 50%;
+}
+
+.service-shortcut-description{
+    padding: 20px;
+    line-height: 35px;
+}
+/************************************************************************************************************/
+/* Page footer */
+.footerPanel{
+    margin-top:8px;
+    display: inline-block;
+    height: 190px;
+    /* background-color: rgba(0, 128, 125, 0.5); */
+    /* background-color: rgba(0, 128, 125, 0.4); */
+    background-color: whitesmoke !important;
+
+    color: black;
+    text-align: center !important;
+    padding-top: 30px;
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+} 
+
+.footer-info{
+    margin-top: 14px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.fa {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: -10px;
+    border-radius: 12%;
+    margin-right: 15px;
+    font-size: 40px !important;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border: 1px solid white;
+  }
+
+.fa-android {
+background: #a4c639;
+color: white;
+border: 1px solid white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+border: 1px solid white;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+border: 1px solid white;
+}
+
