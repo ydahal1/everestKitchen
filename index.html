@@ -40,7 +40,7 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <img src="assets/images/1.png" height="30%" width="30%" id="logo">
-                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button" id="nav-toggle-btn">
+                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#navElements" data-toggle="collapse" type="button" id="nav-toggle-btn">
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span>
@@ -50,11 +50,11 @@
                 <!-- Collect  nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navElements">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><button class="btn navBtns highlight" id="homeBtn">Home</a></li>
-                        <li><button class="btn navBtns" id="serviceBtn">Menu</a></li>
-                        <li><button class="btn navBtns" id="aboutUsBtn">Services</a></li>
-                        <li><button class="btn navBtns" id="contactBtn">Contact Us</a></li>
-                        <li><button class="btn navBtns" id="contactBtn">Reviews</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href= "menu.html">Menu</a></li>
+                        <li><a href= "services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
                     </ul>
                 </div><!--navbar-collapse -->
             </div><!--container-fluid -->
@@ -85,13 +85,13 @@
 
         </div>
        
-
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panel-body homepage-panels homepage-panel-hours">
                 <div class="abtAndHours">
-
-                <p>Open now</p>
-                <p>Hours</p>
-                <p>Sunday : 11 AM-10 PM</p>
+                    <div><span id="statusDot"> &#11044;</span>
+                         <span id="businessStatus"></span>
+                </div>
+                <p style="color:gray; margin-top: -10px;">.......................................................................</p>
+                <p>Sunday : 11AM - 10Pm</p>
                 <p>Monday	: CLOSED</p>
                 <p>Tuesday : 11 AM-10 PM</p>
                 <p>Wednesday : 11 AM-10 PM</p>
@@ -99,84 +99,62 @@
                 <p>Friday	: 11 AM-10 PM</p>
                 <p>Saturday : 11 AM-10 PM</p>
                 </div>
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-        <div class="col-lg-12 panel-body homepage-welcome-msg">  
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel-body homepage-welcome-msg">  
                 <p>We are glad that you are here ....</p>
         </div>
 
-        
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 panel-body">
+    
+        <div clas="srv-shortcuts">
+     
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 service-shortcut-divs" service-shortcut-divs>
             <div class="service-shortcut">
                 <img src="assets/images/services1.png" style="width:200px;height:200px;" class="service-imgs">
                 <div hidden>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 <div class="service-shortcut-description">
-                    <p>Dine-in, Takeout, Catering & Delivery.</p>
-                    <button class="btn btn-success">Explore</button>
+                    <p>Services</p>
+                    <a href="services.html"><button class="btn btn-success">Explore</button></a>
+
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 panel-body homepage-panel-about">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 service-shortcut-divs">
             <div class="service-shortcut">
                 <img src="assets/images/menu1.png" style="width:200px;height:200px;" class="service-imgs">
                 <div hidden>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 <div class="service-shortcut-description">
-                    <p>Menu for all - 100+ entries</p>
-                    <button class="btn btn-success">Explore</button>
+                    <p>Menu</p>
+                    <a href="menu.html"><button class="btn btn-success">Explore</button></a>
+
                 </div>
             </div>
         </div>
        
-
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panel-body homepage-panels homepage-panel-hours">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 service-shortcut-divs">
             <div class="service-shortcut">
                 <img src="assets/images/telephone1.png" style="width:200px;height:200px;" class="service-imgs">
                 <div hidden>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" >CC 3.0 BY</a></div>
                 <div class="service-shortcut-description">
-                    <p>For reservation, questions & comments</p>
-                    <button class="btn btn-success">Contact</button>
+                    <p>Reservation</p>
+                    <a href="contact.html"><button class="btn btn-success">Contact</button></a>
                 </div>
             </div> 
         </div>
 
-
-
-
-
-
-
-        
-
+    </div>
 
         <footer class="col-lg-12 footerPanel blockquote-footer">
             <div class="row">
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-android"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.facebook.com/EverestKitchen1318/" class="fa fa-facebook"></a>
+                <a href="https://www.yelp.com/biz/everest-kitchen-pittsburgh-3" class="fa fa-yelp" ></a>
+                <a href="https://local.yahoo.com/info-210716843-everest-kitchen-pittsburgh" class="fa fa-yahoo"></a>
             </div>
             <div class="footer-info card-footer">
-                <p> Dynamic IO Technologies llc. </p><span class="copyYear">
-                <p>Copyright &nbsp; &copy; &nbsp;<span id="currentYear"></span></p></span>
-                <p> <span class="glyphicon glyphicon-envelope"></span> &nbsp; contact@dynamicio.com </p>
-                <p> <span class="glyphicon glyphicon-phone-alt"></span>&nbsp; (470) 331-8692</p>
+                <p>Menu Copyright : Everest Kitchen &nbsp; &copy; &nbsp;<span id="currentYear"></span></p>
+                <p>Website design by : dynamicIo Technologies | <span class="glyphicon glyphicon-phone-alt"></span>&nbsp; (470) 331-8692 </p>
             </div>
         </footer>
-
-            
-
 
         <!-- Link to js files and jquery cdn -->
         <script type="text/javascript" src="assets/javascript/app.js"></script>
@@ -199,7 +177,6 @@
                      cssEase: 'ease-out'
                       
                  });		
-				
             });
             
             $("#nav-toggle-btn").on('click', function(){

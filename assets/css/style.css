@@ -3,6 +3,7 @@ body{
     font-family: 'Comfortaa', cursive;
     width: 100%;
     /* background-color: rgba(0, 128, 125, 0.1); */
+    color: black;
 
 
 }
@@ -17,15 +18,13 @@ body{
 #navigation-bar{
     /* padding-right: 10px; */
     padding-left: 10px;
-    background-color: whitesmoke !important;
+    background-color:whitesmoke !important;
     padding-top: 2px !important;
     /* padding-bottom: 2px !important; */
 }
 #navElements{
     margin-top: 60px;
     margin-right: 25px;
-
-
 }
 .navBtns{
     margin-right: 2px;
@@ -91,11 +90,23 @@ body{
 .abtAndHours{
     border: 1px solid white;
     padding: 30px;
-    background-color: rgba(0, 128, 125, 0.1);
+    background-color:#EDBB99;
     border-radius: 10px;
 }
+.redDot{
+    color: red;
+    font-size: large
+}
 
+.greenDot{
+    color: green;
+    font-size: large;
+}
 
+#businessStatus{
+    font-size : 14px;
+    font-weight: bold;
+}
 .homepage-panel-about{
     margin-top: 5px;
     text-align: center;
@@ -123,19 +134,33 @@ body{
 /************************************************************************************************************/
 
 .homepage-welcome-msg{
-    margin-top: 5px;
+    margin: 5px;
     text-align: center;
     font-size: 25px;
     font-weight : bold;
+    margin-bottom: 30px;
+}
+
+.service-shortcut-divs{
+    padding-top:20px;
+    padding-bottom:60px;
+
+    min-height: 250px;
+    max-height: 480px;
+    text-align: center;
+    /* background-color: #EDBB99;   */
+
+}
+
+.srv-shortcuts{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .service-shortcut{
-    padding-top:20px;
-    margin-left: 20px;
-    min-height: 250px;
-    background-color: rgba(0, 128, 125, 0.1);   
-    text-align: center;
     border-radius: 5%;
+    overflow: auto;
+ 
 }
 
 .service-imgs{
@@ -179,20 +204,15 @@ body{
     font-size: 40px !important;
   }
 
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-    border: 1px solid white;
-  }
 
-.fa-android {
-background: #a4c639;
+.fa-yahoo {
 color: white;
+background: #4A00A0;
 border: 1px solid white;
 }
 
-.fa-twitter {
-background: #55ACEE;
+.fa-yelp {
+background: red;
 color: white;
 border: 1px solid white;
 }
@@ -201,5 +221,16 @@ border: 1px solid white;
 background: #3B5998;
 color: white;
 border: 1px solid white;
+padding-right: 10px;
+padding-left: 10px;
 }
 
+
+/* *********************************************************************************************** */
+.temp-div{
+    min-height: 500px;
+}
+
+.underconstruction{
+    text-align: center;
+}
