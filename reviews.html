@@ -27,14 +27,19 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
+       
+
+       
     </head>
 
     <body>
-        <nav role="navigation" class="navbar navbar-default navbar-fixed-top" id="navigation-bar">
+        <nav role="navigation" class="navbar navbar-fixed-top" id="navigation-bar">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <img src="assets/images/1.png" height="30%" width="30%" id="logo">
+                    <a class="navbar-brand">
+                        <img src="assets/images/1.png" style = "max-width: 160px;" id="logo">
+                    </a>
                     <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#navElements" data-toggle="collapse" type="button" id="nav-toggle-btn">
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
@@ -44,62 +49,44 @@
                 
                 <!-- Collect  nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navElements">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href= "menu.html">Menu</a></li>
-                        <li><a href= "services.html">Services</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="reviews.html">Reviews</a></li>
+                    <ul class="nav navbar-nav navbar-right mr-auto">
+                        <li class="navElement"><a href="index.html">Home</a></li>
+                        <li class="navElement"><a href= "menu.html">Menu</a></li>
+                        <li class="navElement"><a href= "services.html">Services</a></li>
+                        <li class="navElement"><a href="contact.html">Contact Us</a></li>
+                        <li class="navElement"><a href="reviews.html">Reviews</a></li>
                     </ul>
                 </div><!--navbar-collapse -->
             </div><!--container-fluid -->
     </nav>
-        
-    <div class="temp-div">
-            <div class="underconstruction">
-                <img src="assets/images/page-under-construction.jpg" width="800px">
-            </div>
-        </div>
+    <h1 hidden> Everst Kitchen</h1> <!-- Just fot SEO -->
 
-    <footer class="col-lg-12 footerPanel blockquote-footer">
-        <div class="row">
-            <a href="https://www.facebook.com/EverestKitchen1318/" class="fa fa-facebook"></a>
-            <a href="https://www.yelp.com/biz/everest-kitchen-pittsburgh-3" class="fa fa-yelp" ></a>
-            <a href="https://local.yahoo.com/info-210716843-everest-kitchen-pittsburgh" class="fa fa-yahoo"></a>
-        </div>
-        <div class="footer-info card-footer">
-            <p>Menu Copyright : Everest Kitchen &nbsp; &copy; &nbsp;<span id="currentYear"></span></p>
-            <p>Website design by : dynamicIo Technologies | <span class="glyphicon glyphicon-phone-alt"></span>&nbsp; (470) 331-8692 </p>
-        </div>
-    </footer>
+   <div style="margin-top: 300px; margin-bottom: 200px; min-height : 100px; text-align: center; background-color: yellow; color: black">
+       <div style="padding-top: 30px;">
+        <p> webpage under construction - content coming soon</p>
+       <p>Website design by : dynamicIo Technologies | <span class="glyphicon glyphicon-phone-alt"></span>&nbsp; (470) 331-8692 </p>
+    </div>
+   </div>
+
+       
+
+        <footer class="col-lg-12 footerPanel blockquote-footer">
+            <div class="row">
+                <a href="https://www.facebook.com/EverestKitchen1318/" class="fa fa-facebook"></a>
+                <a href="https://www.yelp.com/biz/everest-kitchen-pittsburgh-3" class="fa fa-yelp" ></a>
+                <a href="https://local.yahoo.com/info-210716843-everest-kitchen-pittsburgh" class="fa fa-yahoo"></a>
+            </div>
+            <div class="footer-info card-footer">
+                <p>Menu Copyright : Everest Kitchen &nbsp; &copy; &nbsp;<span id="currentYear"></span></p>
+                <p>Website design by : dynamicIo Technologies | <span class="glyphicon glyphicon-phone-alt"></span>&nbsp; (470) 331-8692 </p>
+            </div>
+        </footer>
 
         <!-- Link to js files and jquery cdn -->
         <script type="text/javascript" src="assets/javascript/app.js"></script>
         <script type="text/javascript" src="assets/javascript/info.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-
-
-        <!-- For slick Slider -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script>
-            $(document).ready(function(){
-             $('.slider-images').slick({
-                     arrows:false,
-                       infinite: false,
-                     autoplay:true,
-                     autoplaySpeed:4000,
-                     dots: true,
-                     mobileFirst: true,
-                     cssEase: 'ease-out'
-                      
-                 });		
-            });
-            
-            $("#nav-toggle-btn").on('click', function(){
-                $(".container").css({"margin-top": "310px"});
-            });
-  </script>
+       
         </div>
     </body>
 </html>

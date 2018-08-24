@@ -1,186 +1,38 @@
+
+
+/************************************************************************************************************
+*                                               Media queries                                               *
+*************************************************************************************************************/
+@media screen and (max-width: 770px){
+  
+    #nav-toggle-btn{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .slides{
+        height: 350px !important;
+    }
+}
+
+/************************************************************************************************************
+*                                               Body for all pages                                           *
+*************************************************************************************************************/
 body{
     margin-top: 150px !important;
     font-family: 'Comfortaa', cursive;
     width: 100%;
-    /* background-color: rgba(0, 128, 125, 0.1); */
     color: black;
-
-
-}
-/************************************************************************************************************/
-/* Navigation .icon-bar */
-
-#logo{
-    /* padding: -30px !important; */
-    margin-left: 15px;
-
-}
-#navigation-bar{
-    /* padding-right: 10px; */
-    padding-left: 10px;
-    background-color:whitesmoke !important;
-    padding-top: 2px !important;
-    /* padding-bottom: 2px !important; */
-}
-#navElements{
-    margin-top: 60px;
-    margin-right: 25px;
-}
-.navBtns{
-    margin-right: 2px;
-    min-width: 80px;
-    background-color: whitesmoke ;
-    color: black ;
-    font-size: 18px;
-    font-family: 'Comfortaa', cursive;
 }
 
-.highlight{
-    color: red
-}
-#nav-toggle-btn{
-    margin-top:55px;
-    border: 3px solid red;
-    line-height: 18px;
-    padding: -110px !important;
-}
-.icon-bar{
-    background-color: red !important;
-}
-/************************************************************************************************************/
-
-.page-heading{
-    text-align: center;
-    font-size: 50px;
-    padding: 20px;
-
-}
-
-/************************************************************************************************************/
-
-
-/* Home page image slider styling */
-.slider-images{
-    /* margin-top: 70px; */
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-#home-image-text{
-    font-size: 55px;
-    font-weight: bolder;
-    color: white;
-    margin-top: -365px;
-    margin-left: 820px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-/************************************************************************************************************/
-
-.homepage-panel-specialAnnouncement{
-	margin-top: -25px;
-    text-align: center;
-    font-size: 25px;
-    font-weight : bold;
-    /* overflow: auto; */
-    /* background-color: rgba(0, 128, 125, 0.4); */
-    /* color: red; */
-
-}
-/************************************************************************************************************/
-.abtAndHours{
-    border: 1px solid white;
-    padding: 30px;
-    background-color:#EDBB99;
-    border-radius: 10px;
-}
-.redDot{
-    color: red;
-    font-size: large
-}
-
-.greenDot{
-    color: green;
-    font-size: large;
-}
-
-#businessStatus{
-    font-size : 14px;
-    font-weight: bold;
-}
-.homepage-panel-about{
-    margin-top: 5px;
-    text-align: center;
-    /* padding-top: 30px; */
-    line-height: 25px;
-    /* background-color: red; */
-    /* border: 1px solid black; */
-}
-
-
-.homepage-panel-hours{
-    margin-top: 5px;
-    line-height: 25px;
-    text-align: center;
-
-    /* padding:30px; */
-    /* padding-bottom:80px; */
-    /* background-color: red; */
-    /* margin-left: 30px; */
-    /* border: 1px solid black; */
-
-
-}
-
-/************************************************************************************************************/
-
-.homepage-welcome-msg{
-    margin: 5px;
-    text-align: center;
-    font-size: 25px;
-    font-weight : bold;
-    margin-bottom: 30px;
-}
-
-.service-shortcut-divs{
-    padding-top:20px;
-    padding-bottom:60px;
-
-    min-height: 250px;
-    max-height: 480px;
-    text-align: center;
-    /* background-color: #EDBB99;   */
-
-}
-
-.srv-shortcuts{
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.service-shortcut{
-    border-radius: 5%;
-    overflow: auto;
- 
-}
-
-.service-imgs{
-    border-radius: 50%;
-}
-
-.service-shortcut-description{
-    padding: 20px;
-    line-height: 35px;
-}
-/************************************************************************************************************/
-/* Page footer */
+/************************************************************************************************************
+*                                 Navigation and Footer for all pages                                        *
+*************************************************************************************************************/
 .footerPanel{
     margin-top:8px;
     display: inline-block;
     height: 190px;
-    /* background-color: rgba(0, 128, 125, 0.5); */
-    /* background-color: rgba(0, 128, 125, 0.4); */
-    background-color: whitesmoke !important;
-
+    background-color:  honeydew !important;
     color: black;
     text-align: center !important;
     padding-top: 30px;
@@ -224,13 +76,154 @@ border: 1px solid white;
 padding-right: 10px;
 padding-left: 10px;
 }
+/********************************************************************************************************/
+/* Navigation bar */
+#logo{
+    margin-left: -20px;
+    margin-top: -15px;
+}
+#navigation-bar{
+    padding-left: 10px;
+    background-color: snow;
+    padding-top: 2px !important;
 
+}
+#navElements{
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
-/* *********************************************************************************************** */
-.temp-div{
-    min-height: 500px;
 }
 
-.underconstruction{
+#nav-toggle-btn{
+    border: 3px solid black;
+    line-height: 18px;
+    padding: -110px !important;
+}
+.icon-bar{
+    background-color: black !important;
+}
+
+.navbar-nav>li>a {
+    color : black;
+    font-size: 20px;
+   }
+/************************************************************************************************************
+*                                            Home page                                                      *
+*************************************************************************************************************/
+/* Home page image slider styling */
+.slider{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#home-image-text{
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+    margin-top: -365px;
+    margin-left: 820px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/************************************************************************************************************/
+/* Home page -special announcements */
+.homepage-panel-specialAnnouncement{
+	margin-top: -15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight : bold;
+}
+/************************************************************************************************************/
+/* About and hours */
+.abtAndHours{
+    background-color: silver;
+    min-height: 290px;
+    padding-top: 25px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow:auto;
+}
+.redDot{
+    color: red;
+    font-size: large
+}
+
+.greenDot{
+    color: green;
+    font-size: large;
+}
+
+.orangeDot{
+    color : orangered;
+    font-size: large;
+}
+
+#businessStatus{
+    font-size : 14px;
+    font-weight: bold;
+}
+.homepage-panel-about{
+    margin-top: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.homepage-panel-hours{
+    margin-top: 5px;
+    line-height: 25px;
     text-align: center;
 }
+
+#hours-dots{
+    color:gray; 
+    margin-top: -10px;
+}
+/************************************************************************************************************/
+/* Home page below hours and about us */
+.homepage-welcome-msg{
+    /* margin-top: -5px; */
+    text-align: center;
+    font-size: 25px;
+    font-weight : bold;
+    margin-bottom: 20px;
+}
+
+.service-shortcut-divs{
+    padding-top:20px; 
+    /* padding-bottom:60px; */
+    min-height: 250px; 
+    max-height: 480px; 
+    text-align: center;
+    border-radius: 2%;
+    padding-right: 30px; 
+    padding-left: 30px; 
+    overflow:auto; 
+    margin-bottom: 50px;
+}
+
+.srv-shortcuts{
+    margin-top: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.service-shortcut{
+    border-radius: 5%;
+    overflow: auto;
+    background-color:silver;
+    border : 1px solid gray;; 
+    padding-top: 20px;
+}
+
+.service-imgs{
+    border-radius: 50%;
+}
+
+.service-shortcut-description{
+    padding: 20px;
+    line-height: 35px;
+}
+/* *********************************************************************************************** */

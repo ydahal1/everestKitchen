@@ -27,7 +27,9 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
-       
+        <!-- for image slider -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
        
     </head>
@@ -61,12 +63,6 @@
     </nav>
     <h1 hidden> Everst Kitchen</h1> <!-- Just fot SEO -->
 
-   <div style="margin-top: 300px; margin-bottom: 200px; min-height : 100px; text-align: center; background-color: orangered; color: white">
-       <div style="padding-top: 30px;">
-        <p> webpage under construction - content coming soon</p>
-       <p>Website design by : dynamicIo Technologies | <span class="glyphicon glyphicon-phone-alt"></span>&nbsp; (470) 331-8692 </p>
-    </div>
-   </div>
 
        
 
@@ -86,7 +82,29 @@
         <script type="text/javascript" src="assets/javascript/app.js"></script>
         <script type="text/javascript" src="assets/javascript/info.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-       
+
+
+        <!-- For slick Slider -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+             $('.slider-images').slick({
+                     arrows:false,
+                       infinite: false,
+                     autoplay:true,
+                     autoplaySpeed:4000,
+                     dots: true,
+                     mobileFirst: true,
+                     cssEase: 'ease-out'
+                      
+                 });		
+            });
+            
+            $("#nav-toggle-btn").on('click', function(){
+                $(".container").css({"margin-top": "310px"});
+            });
+  </script>
         </div>
     </body>
 </html>
